@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-key="varEquipo">Nuestro Equipo - InnerLight Reflections</title>
+  <link rel="stylesheet" href="ESTILO.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="Animaciones.js" defer></script>
+  <script src="idiomas.js" defer></script>
+</head>
+<body>
+
+  <!-- Encabezado con logo y navegación -->
+  <header class="main-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <a href="INICIO.html">
+          <img src="img/logo.jpg" alt="InnerLight Reflections Logo" />
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <button id="lang-toggle">English</button>
+        <a href="INICIO.html" data-key="varInicio">Inicio</a>
+        <a href="NUESTRO_EQUIPO.html" data-key="varEquipo">Nuestro Equipo</a>
+        <a href="SERVICIOS.html" data-key="varServicios">Servicios de Salud Mental</a>
+        <a href="INICIO.html#faq" data-key="varPreguntas">Preguntas frecuentes</a>
+      </nav>
+      <a href="INICIO.html#contacto" class="btn btn-orange" data-key="varComienzo">Comience ahora</a>
+    </div>
+  </header>
+
+  <!-- Hero Principal -->
+  <section class="hero-banner" style="background-image: url('img/fondo7.jpg'); background-size: cover; text-align: center; color: white; padding: 6rem 1rem;">
+    <div class="container">
+      <h1 data-key="inTitulo"  style="font-size: 3rem; font-weight: bold;">TERAPIA ONLINE</h1>
+      <p data-key="inExplicacion"  style="font-size: 2rem; margin-top: 1rem; font-weight: bold;">
+        <em>“Cuando puedes hablar de tus sentimientos con alguien en quien confías, se vuelven menos aterradores y abrumadores”</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- Sección Nuestro Equipo -->
+  <section class="equipo-section" style="padding: 4rem 1rem;">
+    <div class="container row" style="align-items: center; gap: 2rem;">
+
+      <div class="imagen animate-slide-left" style="flex: 1; max-width: 400px;">
+        <img src="img/Kirstine.jpg" alt="Kristine Pelletier Garcia" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+      </div>
+
+      <div class="texto animate-slide-right" style="flex: 2;">
+        <h2 style="font-weight: 700; font-size: 2.5rem; margin-bottom: 1rem;">Kristine Pelletier Garcia</h2>
+        <p style="font-size: 1.2rem; line-height: 1.6;" data-key="eqPresentacion">
+        <p style="font-size: 1.2rem; line-height: 1.6;" data-key="eqPresentacion2">
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="container" style="text-align: center; padding: 1rem 0;">
+      <p data-key="varPiepagina">© 2025 InnerLight Reflections</p>
+    </div>
+  </footer>
+
+</body>
+</html>

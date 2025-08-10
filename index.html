@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-key="pageTitle">InnerLight Reflections</title>
+  <link rel="stylesheet" href="ESTILO.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="Animaciones.js"></script>
+  <script src="idiomas.js" defer></script>
+</head> 
+<body>
+<!-- Encabezado con logo y navegación -->
+  <header class="main-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <a href="INICIO.html">
+          <img src="img/logo.jpg" alt="InnerLight Reflections Logo" />
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <button id="lang-toggle">English</button>
+        <a href="SERVICIOS.html" data-key="varServicios">Servicios de Salud Mental</a>
+        <a href="SERVICIOS.html#faq" data-key="varPreguntas">Preguntas Frecuentes</a>
+      </nav>
+      <a href="#contacto" class="btn btn-orange" data-key="varComienzo">Comience ahora</a>
+    </div>
+  </header>
+
+  <!-- Hero Principal -->
+  <section class="hero-banner" style="background-image: url('img/fondo4.jpg'); background-size: cover; text-align: center; color: white; padding: 6rem 1rem;">
+    <div class="container">
+      <h1 data-key="inTitulo"  style="font-size: 3rem; font-weight: bold;">TERAPIA ONLINE</h1>
+      <p data-key="inExplicacion"  style="font-size: 2rem; margin-top: 1rem; font-weight: bold;">
+        <em>“Cuando puedes hablar de tus sentimientos con alguien en quien confías, se vuelven menos aterradores y abrumadores”</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA Fijo -->
+  <div class="cta-bottom" style="background-color: #2563EB; text-align: center; padding: 1rem;">
+    <a href="#contacto" data-key="inContacto" style="color: white; font-size: 1.25rem; font-weight: bold; text-decoration: none;">
+      Ponte en contacto con nosotros →
+    </a>
+  </div>
+
+  <!-- Bienvenida -->
+  <section class="bienvenida slide-left">
+    <div class="container row">
+      <div class="texto">
+        <h2 class="slide-left">Kristine Pelletier Garcia</h2>
+        <p style="font-size: 0.9rem; margin-bottom: 1rem;" class="animate-slide-left" data-key="inPresentacion">
+        </p>
+        <p style="font-size: 0.9rem;" class="animate-slide-left" data-key="inPresentacion2">
+        </p>
+      </div>
+      <div class="imagen">
+        <img src="img/Kirstine.jpg" class="animate-slide-right" alt="Psicología Online" />
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="formulario-contacto">
+    <div class="container">
+      <h2 data-key="inTitulo4">Solicita una cita</h2>
+      <form action="https://formspree.io/f/xldlgrkb" method="POST">
+        <label for="nombre" data-key="inNombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email" data-key="inCorreo">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        </select>
+
+        <label for="mensaje" data-key="inMensaje">Mensaje o motivo de consulta</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button type="submit" class="btn" data-key="inMandar">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="container">
+      <p data-key="varPiepagina">© 2025 InnerLight Reflections. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
