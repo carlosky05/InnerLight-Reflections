@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-key="pageTitle">InnerLight Reflections</title>
+  <link rel="stylesheet" href="Estilo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="Animaciones.js"></script>
+  <script src="idiomas.js" defer></script>
+</head> 
+<body>
+<!-- Encabezado con logo y navegación -->
+  <header class="main-header">
+    <div class="container header-flex">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo3.png" alt="InnerLight Reflections Logo" />
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <button id="lang-toggle">English</button>
+        <a href="SERVICIOS.html" data-key="varServicios">Servicios de Salud Mental</a>
+        <a href="SERVICIOS.html#faq" data-key="varPreguntas">Preguntas Frecuentes</a>
+      </nav>
+      <a href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=9610642&provider_ids=%5B9610642%5D&appt_type_ids=%5B472606,472607,472608,478258%5D " class="btn btn-orange" data-key="varComienzo">Comience ahora</a>
+    </div>
+  </header>
+
+  <!-- Hero Principal -->
+  <section class="hero-banner" style="background-image: url('img/fondo5.jpg'); background-size: cover; text-align: center; color: white; padding: 6rem 1rem;">
+    <div class="container">
+      <h1   style="font-size: 3rem; font-weight: bold;">InnerLight Reflections</h1>
+      <p data-key="inExplicacion"  style="font-size: 2rem; margin-top: 1rem; font-weight: bold;">
+        <em>“Cuando puedes hablar de tus sentimientos con alguien en quien confías, se vuelven menos aterradores y abrumadores”</em>
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA Fijo -->
+  <div class="cta-bottom" style="background-color:  #2563EB; text-align: center; padding: 0.5rem;">
+    <a href="#contacto" data-key="inContacto" style="color: white; font-size: 1.25rem; font-weight: bold; text-decoration: none;">
+      Ponte en contacto 
+    </a>
+  </div>
+
+ <!-- Bienvenida -->
+<section class="bienvenida slide-left">
+  <div class="container row">
+
+    <!-- Título centrado entre texto e imagen -->
+    <h2 class="slide-left titulo-centro">Kristine Pelletier Garcia</h2>
+    <div class="imagen">
+      <img src="img/Kirstine.jpg" class="animate-slide-right" alt="Psicología Online" />
+    </div>
+  </div>
+  
+    <div class="texto">
+      <p style="font-size: 1rem; margin-bottom: 1rem;" class="animate-slide-left"  data-key="inPresentacion"></p>
+      <p style="font-size: 1rem;" class="animate-slide-left" data-key="inPresentacion2"></p>
+    </div>
+
+    
+</section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="formulario-contacto">
+    <div class="container">
+      <h2 data-key="inTitulo4">Solicita una cita</h2>
+      <form action="https://formspree.io/f/xanbgzky" method="POST">
+        <label for="nombre" data-key="inNombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email" data-key="inCorreo">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje" data-key="inMensaje">Mensaje o motivo de consulta</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button type="submit" class="btn" data-key="inMandar">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="container">
+      <p data-key="varPiepagina">© 2025 InnerLight Reflections.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

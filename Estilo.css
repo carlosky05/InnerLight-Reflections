@@ -1,0 +1,442 @@
+/* RESET GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FDFCFB;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Boton idioma */
+#lang-toggle {
+  background-color: transparent;
+  border: 1px solid #9CA3AF;
+  color: #9CA3AF;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+#lang-toggle:hover {
+  background-color: #E5E7EB;
+  color: #374151;
+}
+
+/* Encabezado */
+.main-header {
+  background: #FFFFFF;
+  padding: 1rem 0;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+  height: 100px;
+}
+
+/* Navegación */
+.nav-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-menu a:hover {
+  color: #1F2937;
+}
+
+/* Botones principales */
+.btn {
+  background-color: #2563EB;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #1E40AF;
+}
+
+.btn-orange {
+  margin-left: 1rem;
+}
+
+.btn-orange-wide {
+  display: block;            /* Para que pueda centrarse con margin auto */
+  width: 250px;              /* Más ancho, ajusta a tu gusto */
+  margin: 0 auto;            /* Centra horizontalmente */
+  text-align: center;        /* Centrar texto dentro del botón */
+  padding: 0.75rem 1rem;     /* Puedes ajustar el padding para que se vea bien */
+  border-radius: 8px;        /* Ejemplo, que sea consistente con tu diseño */
+  font-weight: 600;          /* Más peso, si quieres */
+}
+/*botones*/
+.botones {
+  display: flex;
+  justify-content: center; /* los centra en la página */
+  gap: 10px;               /* espacio entre los botones */
+}
+
+/* Hero */
+.hero-banner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-banner h1 {
+  font-size: 2.75rem;
+  font-weight: 600;
+
+}
+.hero-banner p {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-top: 1rem;
+  font-weight: 400;
+
+}
+.hero-banner h1,
+.hero-banner p {
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+  color:#ffffff
+ }
+
+/* CTA fijo inferior */
+.cta-bottom {
+  background-color: rgba(98, 99, 100, 0.9);
+  text-align: center;
+  padding: 0.8rem;
+}
+.cta-bottom a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.05rem;
+  text-decoration: none;
+}
+
+/* Bienvenida */
+.bienvenida {
+  padding: 4rem 2rem;
+  background-color: #F9FAFB;
+  margin: 2rem 0;
+}
+.bienvenida .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.bienvenida .texto {
+  flex: 1 1 50%;
+  width: 80%;
+  margin: auto
+}
+.bienvenida h2 {
+  font-size: 2rem;
+  color: #1F2937;
+  margin-bottom: 1rem;
+}
+
+.bienvenida .titulo-centro {
+  flex-basis: 100%;   /* Ocupa todo el ancho dentro del flex */
+  text-align: center; /* Centrado en medio */
+}
+
+.bienvenida .texto p {
+  font-size: 1.1rem;
+  color: #4B5563;
+  line-height: 1.6;
+  text-align: center;
+}
+.bienvenida .imagen {
+  flex: 1 1 40%;
+  text-align: center;
+}
+.bienvenida .imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 80px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ / details */
+.faq {
+  padding: 2rem 1rem;
+}
+.faq h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+details {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+}
+details summary {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+details[open] {
+  background-color: #EEF2FF;
+}
+
+/* Formulario */
+.formulario-contacto {
+  background-color: #FFFFFF;
+  padding: 3rem 1rem;
+}
+.formulario-contacto h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+form {
+  max-width: 550px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+label {
+  font-weight: 500;
+  color: #374151;
+}
+input, select, textarea {
+  padding: 0.75rem;
+  border: 1px solid #D1D5DB;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/* Pie de página */
+footer {
+  background-color: #1F2937;
+  color: #D1D5DB;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+/*Listas*/
+
+#focus-methods {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.treatment-lists {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.list-container {
+    flex: 1 1 300px;
+    background-color: #e6f0f3;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0, 119, 182, 0.15);
+    text-align: center; /* Para que el texto dentro de las listas quede alineado a la izquierda */
+    margin: 0 auto; /* Centrar bloques si hay espacio extra */
+}
+
+.list-container h3 {
+    color: #005f87;
+    margin-bottom: 1rem;
+    text-align: center; /* Centrar los subtítulos */
+}
+
+.list-container ul {
+    list-style-type: none;
+    padding-left: 1.2rem;
+    color: #333;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.frase-hero {
+  display: inline-block;
+  background-color: rgba(218, 218, 218, 0.75);
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 1.2rem 1.8rem;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Ajustes para listas */
+.treatment-lists {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.list-container {
+  flex: 1 1 300px;
+  background-color: #e6f0f3;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 119, 182, 0.15);
+  text-align: left;
+}
+
+.list-container h3 {
+  color: #005f87;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.list-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+.list-container li {
+  margin-bottom: 0.5rem;
+}
+
+/* Mejoras para móvil */
+@media (max-width: 768px) {
+  .frase-hero {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .list-container {
+    font-size: 0.95rem;
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .header-flex {
+    flex-direction: column;   /* Logo, nav y botón en columna */
+    align-items: center;
+    gap: 1rem;                /* Espacio entre elementos */
+  }
+
+  .logo img {
+    height: 70px;             /* Logo más pequeño en móvil */
+  }
+
+  .nav-menu {
+    flex-direction: column;   /* Menú en columna */
+    gap: 0.5rem;
+  }
+
+  .btn-orange {
+    margin-left: 0;           /* Elimina margen lateral */
+    margin-top: 0.5rem;
+  }
+}
+
+
+
+/*-------------Animaciones-------------------------*/
+/*Aparicion desde abajo*/
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animate-slide-up.active {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+/* Aparicion desde la izquierda */
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-left {
+  opacity: 0;
+}
+
+.animate-slide-left.active {
+  animation: slideLeft 0.8s ease forwards;
+}
+
+/* Aparicion desde la derecha */
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.animate-slide-right.active {
+  animation: slideRight 0.8s ease-out forwards;
+}
+
