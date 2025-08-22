@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   background-color: #FDFCFB;
   color: #333;
   line-height: 1.6;
@@ -439,4 +439,5 @@ footer {
 .animate-slide-right.active {
   animation: slideRight 0.8s ease-out forwards;
 }
+
 
