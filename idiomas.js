@@ -71,8 +71,8 @@ const traducciones = {
     seFaq2A:"Solo necesitas un dispositivo con cámara y micrófono, una buena conexión a internet y un lugar tranquilo donde te sientas cómodo/a.",
     seFaq3Q:"¿Puedo elegir el idioma de la sesión?",
     seFaq3A:"Sí, las sesiones pueden realizarse en español o inglés, según tu preferencia.",
-    seFaq4Q:"¿Qué pasa si necesito cancelar o reprogramar mi cita?",
-    seFaq4A:"Puedes cancelar o reprogramar con al menos 24 horas de antelación sin coste adicional.",
+    seFaq4Q:"¿Cuánto cuesta las sesiones?",
+    seFaq4A:"El el precio de la terapia variará dependiendo de los servicios que necesites. Mi creencia personal es que todos los que necesitan terapia deberían tener acceso a ella y el precio no debería ser prohibitivo. Aunque en este momento no acepto ningún plan de seguro, ofrezco tarifas en escala móvil si es necesario. Por favor, contáctame directamente para  más información",
   },
   en: {
     pageTitle: "Home - InnerLight Reflections",
@@ -146,8 +146,8 @@ const traducciones = {
     seFaq2A:"You only need a device with a camera and microphone, a good internet connection, and a quiet space where you feel comfortable.",
     seFaq3Q:"Can I choose the language for the session?",
     seFaq3A:"Yes, sessions can be conducted in either English or Spanish , according to your preference.",
-    seFaq4Q:"What if I need to cancel or reschedule my appointment?",
-    seFaq4A:"You can cancel or reschedule at least 24 hours in advance without any additional cost.",
+    seFaq4Q:"How much does therapy cost?",
+    seFaq4A:"The cost of therapy will vary depending on the services you require. My personal belief is that everyone who needs therapy should have access to it and the cost should not be prohibitive. While I do not accept any insurance plans at this time, I do offer sliding scale rates if needed. Please contact me directly to discuss more.",
   }
 };
 
