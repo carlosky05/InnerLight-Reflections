@@ -192,3 +192,4 @@ window.addEventListener("DOMContentLoaded", () => {
   aplicarIdioma();
   document.getElementById("lang-toggle")?.addEventListener("click", cambiarIdioma);
 });
+
