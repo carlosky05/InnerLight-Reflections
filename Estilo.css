@@ -193,11 +193,19 @@ body {
   text-align: center;
 }
 .bienvenida .imagen img {
-  max-width: 40%;
+  max-width: 40%;   /* Escritorio */
   height: auto;
   border-radius: 80px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+  .bienvenida .imagen img {
+    max-width: 80%;   /* En móvil ocupa más ancho */
+    border-radius: 40px; /* Opcional: menos redondeo para no deformar */
+  }
+}
+
 
 /* FAQ / details */
 .faq {
@@ -446,6 +454,7 @@ footer {
 .animate-slide-right.active {
   animation: slideRight 0.8s ease-out forwards;
 }
+
 
 
 
