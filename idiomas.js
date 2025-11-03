@@ -8,7 +8,7 @@ const traducciones = {
     varComienzo: "Comienza ahora",
     varPiepagina: "© 2025 InnerLight Reflections. Todos los derechos reservados.",
     inTitulo: "TERAPIA ONLINE",
-    inExplicacion: "Cuando puedes hablar con alguien sobre tus sentimientos, se vuelven menos aterradores y abrumadores.",
+    inExplicacion: "Incluso en nuestros momentos más difíciles, todavía hay una luz que brilla dentro de nosotros",
     inContacto: "Ponte en contacto",
     inPresentacion:
       "Mi nombre es Kristine Pelletier Garcia y soy Trabajadora Social Clínica Licenciada bilingüe (inglés/español) con más de 10 años de experiencia clínica. Ofrezco servicios de salud mental por telemedicina para adultos en el estado de Carolina del Norte. Soy la propietaria de InnerLight Reflections, y mi enfoque terapéutico está centrado en el cliente y varía según las necesidades que cada persona identifique. Aunque me especializo en ansiedad, depresión, afrontamiento de enfermedades crónicas y agudas, y cambios de vida en adultos a lo largo del ciclo vital, considero que cada cliente es único y especial, y me enorgullece poder ofrecer una escucha atenta, enfocada y compasiva para ayudar a mis clientes en su camino.",
@@ -83,7 +83,7 @@ const traducciones = {
     varComienzo: "Book now",
     varPiepagina: "© 2025 InnerLight Reflections. All rights reserved.",
     inTitulo: "ONLINE THERAPY",
-    inExplicacion: "When you can talk to someone about your feelings, they become less scary and overwhelming",
+    inExplicacion: "Even in our most difficult moments, there is still a light that shines inside us.",
     inContacto: "Get in touch with me",
     inPresentacion:
       "My name is Kristine Pelletier Garcia and I am a bilingual (English/Spanish) Licensed Clinical Social Worker with over 10 years of clinical experience. I provide telemental health services to adults in the state of North Carolina and I am the owner of InnerLight Reflections. My therapeutic approach is client-centered and adapted to the needs identified by each person. While I specialize in anxiety, depression, coping with chronic and acute illnesses, and life changes in adults across the lifespan, I consider each client unique and special, and I take pride in offering attentive, focused, and compassionate listening to support them on their journey.",
@@ -192,4 +192,5 @@ window.addEventListener("DOMContentLoaded", () => {
   aplicarIdioma();
   document.getElementById("lang-toggle")?.addEventListener("click", cambiarIdioma);
 });
+
 
