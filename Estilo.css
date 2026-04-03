@@ -206,7 +206,6 @@ body {
   }
 }
 
-
 /* FAQ / details */
 .faq {
   padding: 2rem 1rem;
@@ -455,6 +454,80 @@ footer {
   animation: slideRight 0.8s ease-out forwards;
 }
 
+#country-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  backdrop-filter: blur(3px);
+}
 
+#country-popup .popup-content {
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 420px;
+  width: 90%;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+  animation: fadeIn 0.35s ease;
+  font-family: 'Inter', sans-serif;
+}
 
+#country-popup h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #1F2937;
+}
 
+#country-popup p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #4B5563;
+}
+
+#country-popup .button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#country-popup button {
+  padding: 0.8rem 1.4rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.25s ease;
+  min-width: 130px;
+}
+
+#btn-es {
+  background: linear-gradient(135deg, #2563EB, #1D4ED8);
+  color: white;
+}
+
+#btn-es:hover {
+  background: linear-gradient(135deg, #1E40AF, #1D4ED8);
+}
+
+#btn-us {
+  background: linear-gradient(135deg, #10B981, #059669);
+  color: white;
+}
+
+#btn-us:hover {
+  background: linear-gradient(135deg, #047857, #059669);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
