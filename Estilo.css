@@ -11,8 +11,7 @@ body {
   color: #333;
   line-height: 1.6;
   font-family: 'Comic Neue', cursive;
-  font-weight: 700; /* Negrita */
-  
+  font-weight: 400;
 }
 
 .container {
