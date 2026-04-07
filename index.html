@@ -23,10 +23,10 @@
     </div>
 
     <nav class="nav-menu">
-      <a href="index.html">Inicio</a>
       <a href="#services">Servicios de Apoyo Emocional</a>
       <a href="#faq">Preguntas Frecuentes</a>
     </nav>
+    <a href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=9610642&provider_ids=%5B9610642%5D&appt_type_ids=%5B472606,472607,472608,478258%5D" class="btn btn-orange" data-key="varComienzo">Comience ahora</a>
   </div>
 </header>
 
@@ -158,12 +158,18 @@ function showPopup() {
   popup.id = "country-popup";
   popup.innerHTML = `
     <div class="popup-content">
-      <h2>¿Qué versión deseas ver?</h2>
-      <p>Elige la página donde quieres continuar:</p>
+      <h3>¿Qué idioma deseas?</h3>
+      <h3>What language do you want?</h3>
 
       <div class="button-row">
-        <button id="btn-es">España</button>
-        <button id="btn-us">EEUU</button>
+        <button id="btn-es">España
+         <img src="https://flagcdn.com/w40/es.png" width="24" style="vertical-align:middle; margin-right:8px;">
+            </button>
+
+        <button id="btn-us">EEUU
+         <img src="https://flagcdn.com/w40/us.png" width="24" style="vertical-align:middle; margin-right:8px;">
+            </button>
+
       </div>
     </div>
   `;
