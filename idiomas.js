@@ -1,155 +1,197 @@
 const traducciones = {
   es: {
-    pageTitle: "Inicio - InnerLight Reflections",
-    varInicio: "Inicio",
-    varEquipo: "Nuestro Equipo",
-    varServicios: "Servicios de Salud Mental",
-    varPreguntas: "Preguntas Frecuentes",
-    varComienzo: "Comienza ahora",
-    varPiepagina: "© 2025 InnerLight Reflections. Todos los derechos reservados.",
-    inTitulo: "TERAPIA ONLINE",
-    inExplicacion: "Incluso en nuestros momentos más difíciles, todavía hay una luz que brilla dentro de nosotros",
-    inContacto: "Ponte en contacto",
-    inPresentacion:
-      "Mi nombre es Kristine Pelletier Garcia y soy Trabajadora Social Clínica Licenciada bilingüe (inglés/español) con más de 10 años de experiencia clínica. Ofrezco servicios de salud mental por telemedicina para adultos en el estado de Carolina del Norte. Soy la propietaria de InnerLight Reflections, y mi enfoque terapéutico está centrado en el cliente y varía según las necesidades que cada persona identifique. Aunque me especializo en ansiedad, depresión, afrontamiento de enfermedades crónicas y agudas, y cambios de vida en adultos a lo largo del ciclo vital, considero que cada cliente es único y especial, y me enorgullece poder ofrecer una escucha atenta, enfocada y compasiva para ayudar a mis clientes en su camino.",
-    inPresentacion2:
-      "Desde temprana edad me sentí atraída para escuchar de manera atenta a los demás para comprender más profundamente cómo se sentían, especialmente en algunos de los momentos más difíciles de su vida. Ahora, como profesional licenciada, he tenido el honor de trabajar con personas que están atravesando cambios en su vida durante más de una década. El cambio a menudo puede generar muchas emociones y pensamientos que se manifiestan como ansiedad, estrés, depresión y pueden causar alteraciones en la vida personal. Mi enfoque terapéutico ha ayudado a mis clientes a identificar maneras de avanzar frente a estos cambios, que pueden incluir la maternidad/paternidad, el estrés laboral, el duelo, el estrés familiar, afrontar una enfermedad crónica o aguda y el final de la vida.",
-    inTitulo3: "Preguntas Frecuentes",
-    inDesplegable1: "¿Qué tipo de terapias ofrecéis?",
-    inExpldesplegable1: "Ofrecemos terapia individual, de pareja e infantil tanto presencial como online.",
-    inDesplegable2: "¿Cómo reservo una cita?",
-    inExpldesplegable2: "Puedes reservar a través del formulario de contacto o escribiéndonos directamente.",
-    inDesplegable3: "¿Las sesiones son confidenciales?",
-    inExpldesplegable3: "Sí, todas nuestras sesiones están protegidas por el secreto profesional.",
-    inTitulo4: "Contacta conmigo",
-    inNombre: "Nombre completo",
-    inCorreo: "Correo electrónico",
-    inServicios: "Tipo de servicio",
-    inServicio1: "Terapia Individual",
-    inServicio2: "Terapia de Pareja",
-    inServicio3: "Terapia Infantil",
-    inMensaje: "Mensaje o motivo de consulta",
-    inMandar: "Enviar mensaje",
-    seIntroducion:"Soy una terapeuta que ofrece un enfoque creativo y siempre apoyo a mis clientes con mucha compasión y comprensión, sin importar las dificultades que estén enfrentando.",
-    seTituloAreas:"Áreas de Enfoque",
-    seEjemplo1: "Alzheimer",
-    seEjemplo2: "Ansiedad",
-    seEjemplo3: "Enfermedades Crónicas",
-    seEjemplo4: "Habilidades para Afrontar",
-    seEjemplo5: "Depresión",
-    seEjemplo6: "Conflictos Familiares",
-    seEjemplo7: "Duelo",
-    seEjemplo8: "Transiciones de Vida",
-    seEjemplo9: "Crianza",
-    seEjemplo10: "Problemas de Pareja",
-    seEjemplo12: "Autoestima",
-    seEjemplo13: "Estrés",
-    seEjemplo14: "Envejecimiento",
-    seEjemplo15: "Estrés Cultural",
-    seEjemplo16: "Estrés Laboral",
-    seEjemplo17: "Personas Mayores",
-    seEjemplo18: "Estrés en Cuidadores",
-    seMetodos: "Métodos Terapéuticos",
-    seEjemplo19: "Terapia Basada en el Apego",
-    seEjemplo21: "Enfoque en la Compasión",
-    seEjemplo22: "Sensibilidad Cultural",
-    seEjemplo23: "Sistemas Familiares",
-    seEjemplo24: "Perspectiva Feminista",
-    seEjemplo25: "Entrevista Motivacional",
-    seEjemplo26: "Terapia Narrativa",
-    seEjemplo27: "Centrada en la Persona",
-    seEjemplo28: "Psicología Positiva",
-    seEjemplo29: "Terapia Basada en Fortalezas",
-    seEjemplo30: "Terapia Centrada en el Cliente",
-    seEjemplo31: "Terapia de Duelo",
-    seEjemplo32: "Mindfulness",
-    seEjemplo33: "Terapia de Apoyo",
-    seEjemplo34: "Terapia Somática",
-    seFaq1Q:"¿La terapia es 100 % online?",
-    seFaq1A:"Sí. No importa dónde te encuentres en Carolina del Norte, nos reunimos a través de una llamada de video en un espacio seguro y privado, sin necesidad de viajar ni estrés adicional.",
-    seFaq2Q:"¿Qué necesito para la sesión?",
-    seFaq2A:"Solo necesitas un dispositivo con cámara y micrófono, una buena conexión a internet y un lugar tranquilo donde te sientas cómodo/a.",
-    seFaq3Q:"¿Puedo elegir el idioma de la sesión?",
-    seFaq3A:"Sí, las sesiones pueden realizarse en español o inglés, según tu preferencia.",
-    seFaq4Q:"¿Cuánto cuesta las sesiones?",
-    seFaq4A:"El el precio de la terapia variará dependiendo de los servicios que necesites. Mi creencia personal es que todos los que necesitan terapia deberían tener acceso a ella y el precio no debería ser prohibitivo. Aunque en este momento no acepto ningún plan de seguro, ofrezco tarifas en escala móvil si es necesario. Por favor, contáctame directamente para  más información",
+    /* --- ESPAÑA --- */
+    navServicios: "Servicios de Apoyo Emocional",
+    navPreguntas: "Preguntas Frecuentes",
+
+    heroTitulo: "InnerLight Reflections",
+    heroFrase: "“Incluso en nuestros momentos más difíciles, aún hay una luz que brilla dentro de nosotros.”",
+    heroBoton: "Ponte en contacto",
+    heroTelefono: "Teléfono: +34 674 43 30 59",
+
+    bienvenidaTitulo: "Kristine Pelletier Garcia",
+    bienvenidaSubtitulo: "Guía de Movimiento para el Duelo",
+    bienvenidaP1:
+      "Mi nombre es Kristine Pelletier Garcia y soy psicoterapeuta bilingüe (inglés/español) con más de 10 años de experiencia clínica. En España ofrezco apoyo emocional como Guía de Movimiento para el Duelo, acompañando a personas que atraviesan momentos de cambio, pérdida o transición. Mi enfoque es cercano, centrado en la persona y adaptado a las necesidades que cada individuo identifica.",
+    bienvenidaP2:
+      "Desde temprana edad me sentí atraída por escuchar atentamente a los demás para comprender más profundamente cómo se sentían, especialmente en los momentos más difíciles de su vida. Los cambios importantes suelen traer una mezcla de emociones que pueden manifestarse como ansiedad, estrés o tristeza. Mi trabajo consiste en acompañarte con presencia, compasión y herramientas que te ayuden a avanzar a través de estas transiciones.",
+
+    serviciosIntro:
+      "Ofrezco un cuidado enfocado en la compasión y el apoyo para ayudar a los clientes a navegar los desafíos a los que se están enfrentando.",
+    serviciosTitulo: "Áreas de Enfoque",
+    serv1: "Transiciones de vida",
+    serv2: "Estrés familiar o de pareja",
+    serv3: "Duelo y pérdida",
+    serv4: "Crianza",
+    serv5: "Sobrecarga del cuidador",
+
+    faqTitulo: "Preguntas Frecuentes",
+    faq1Q: "¿La terapia es 100 % online?",
+    faq1A: "La mayoría de mis sesiones las realizo online; sin embargo, si estás interesado/a en tener una sesión presencial, por favor contáctame para hablar sobre las opciones disponibles.",
+    faq2Q: "¿Cuánto cuesta una sesión?",
+    faq2A: "Actualmente, cobro 60€ por sesión.",
+
+    formTitulo: "Solicita una cita",
+    formNombre: "Nombre completo",
+    formCorreo: "Correo electrónico",
+    formMensaje: "Mensaje o motivo de consulta",
+    formEnviar: "Enviar mensaje",
+
+    /* --- USA (VERSIÓN ESPAÑOL) --- */
+    pageTitleUSA: "InnerLight Reflections - EEUU",
+
+    usaServicios: "Servicios de Salud Mental",
+    usaPreguntas: "Preguntas Frecuentes",
+    usaComienzo: "Comienza ahora",
+
+    usaHeroTitulo: "InnerLight Reflections",
+    usaHeroFrase: "“Incluso en nuestros momentos más difíciles, aún hay una luz que brilla dentro de nosotros.”",
+    usaHeroBoton: "Ponte en contacto",
+
+    usaBienvenidaTitulo: "Kristine Pelletier Garcia, LCSW",
+    usaBienvenidaSubtitulo: "Psicoterapeuta y Guía de Movimiento para el Duelo",
+
+    usaBienvenidaP1:
+      "Mi nombre es Kristine Pelletier Garcia y soy Trabajadora Social Clínica Licenciada bilingüe (inglés/español) con más de 10 años de experiencia clínica. Ofrezco servicios de terapia online para adultos en Carolina del Norte y soy la propietaria de InnerLight Reflections. Mi enfoque terapéutico está centrado en la persona y se adapta a las necesidades que cada individuo identifica.",
+    usaBienvenidaP2:
+      "Desde temprana edad me sentí atraída por escuchar atentamente a los demás para comprender más profundamente cómo se sentían, especialmente en los momentos más difíciles de su vida. El cambio a menudo trae una mezcla de emociones que pueden manifestarse como ansiedad, estrés o depresión. Mi enfoque ha ayudado a mis clientes a encontrar maneras de avanzar a través de las muchas transiciones que enfrentan.",
+
+    usaServiciosIntro:
+      "Ofrezco un enfoque compasivo y de apoyo para ayudar a los clientes a navegar los desafíos que están enfrentando.",
+
+    usaAreasTitulo: "Áreas de Enfoque",
+    usaArea1: "Ansiedad",
+    usaArea2: "Depresión",
+    usaArea3: "Estrés familiar o de pareja",
+    usaArea4: "Duelo y pérdida",
+    usaArea5: "Transiciones de vida",
+    usaArea6: "Crianza",
+    usaArea7: "Sobrecarga del cuidador",
+
+    usaMetodosTitulo: "Métodos Terapéuticos",
+    usaMetodo1: "Basado en el apego",
+    usaMetodo2: "Duelo",
+    usaMetodo3: "Somático",
+    usaMetodo4: "Feminista",
+    usaMetodo5: "Mindfulness",
+    usaMetodo6: "Psicología Positiva",
+    usaMetodo7: "Basado en fortalezas",
+
+    usaFaqTitulo: "Preguntas Frecuentes",
+    usaFaq1Q: "¿La terapia es 100% online?",
+    usaFaq1A: "Sí. No importa dónde estés en Carolina del Norte, nos reunimos por videollamada en un espacio seguro y privado.",
+    usaFaq2Q: "¿Qué necesito para la sesión?",
+    usaFaq2A: "Solo necesitas un dispositivo con cámara y micrófono, buena conexión a internet y un lugar tranquilo donde te sientas cómodo/a.",
+    usaFaq3Q: "¿Cuánto cuesta la terapia?",
+    usaFaq3A: "El costo varía según tus necesidades. Aunque no acepto seguros, ofrezco tarifas ajustadas si es necesario. Contáctame para más información.",
+
+    usaFormTitulo: "Ponte en contacto",
+    usaFormNombre: "Nombre completo",
+    usaFormCorreo: "Correo electrónico",
+    usaFormMensaje: "Mensaje",
+    usaFormEnviar: "Enviar mensaje",
+
+    usaFooter: "© 2025 InnerLight Reflections."
   },
+
   en: {
-    pageTitle: "Home - InnerLight Reflections",
-    varInicio: "Home",
-    varEquipo: "Our Team",
-    varServicios: "Mental Health Services",
-    varPreguntas: "Frequently Asked Questions",
-    varComienzo: "Book now",
-    varPiepagina: "© 2025 InnerLight Reflections. All rights reserved.",
-    inTitulo: "ONLINE THERAPY",
-    inExplicacion: "Even in our most difficult moments, there is still a light that shines inside us.",
-    inContacto: "Get in touch with me",
-    inPresentacion:
-      "My name is Kristine Pelletier Garcia and I am a bilingual (English/Spanish) Licensed Clinical Social Worker with over 10 years of clinical experience. I provide telemental health services to adults in the state of North Carolina and I am the owner of InnerLight Reflections. My therapeutic approach is client-centered and adapted to the needs identified by each person. While I specialize in anxiety, depression, coping with chronic and acute illnesses, and life changes in adults across the lifespan, I consider each client unique and special, and I take pride in offering attentive, focused, and compassionate listening to support them on their journey.",
-    inPresentacion2:
-      "From an early age, I was drawn to listening attentively to others to better understand how they were feeling, especially during some of the most challenging moments in their lives. Now, as a licensed clinician, I have had the honor of working for over a decade with individuals experiencing life changes. Change often brings a mix of emotions and thoughts that can manifest as anxiety, stress, or depression, disrupting personal life. My therapeutic approach has helped clients find ways to move forward through transitions such as parenthood, work stress, grief, family stress, coping with chronic or acute illness, and end-of-life issues.",
-    inTitulo3: "Frequently Asked Questions",
-    inDesplegable1: "What types of therapy do you offer?",
-    inExpldesplegable1: "We offer individual, couples, and child therapy, both in person and online.",
-    inDesplegable2: "How do I book an appointment?",
-    inExpldesplegable2: "You can book through the contact form or by writing to us directly.",
-    inDesplegable3: "Are the sessions confidential?",
-    inExpldesplegable3: "Yes, all our sessions are protected by professional confidentiality.",
-    inTitulo4: "Request an Appointment",
-    inNombre: "Contact  me",
-    inCorreo: "Email address",
-    inServicios: "Type of service",
-    inServicio1: "Individual Therapy",
-    inServicio2: "Couples Therapy",
-    inServicio3: "Child Therapy",
-    inMensaje: "Message or reason for consultation",
-    inMandar: "Send message",
-    seIntroducion:"I am a therapist offering a compassionate and supportive approach to help my clients with the challenges they are facing.",
-    seTituloAreas:"Areas of Focus",
-    seEjemplo1: "Alzheimer's Disease",
-    seEjemplo2: "Anxiety",
-    seEjemplo3: "Chronic Illnesses",
-    seEjemplo4: "Coping Skills",
-    seEjemplo5: "Depression",
-    seEjemplo6: "Family Conflicts",
-    seEjemplo7: "Grief and Loss",
-    seEjemplo8: "Life Transitions",
-    seEjemplo9: "Parenting",
-    seEjemplo10: "Relationship Issues",
-    seEjemplo12: "Self-Esteem",
-    seEjemplo13: "Stress",
-    seEjemplo14: "Aging",
-    seEjemplo15: "Cultural Stress",
-    seEjemplo16: "Work-Related Stress",
-    seEjemplo17: "Older Adults",
-    seEjemplo18: "Caregiver Stress",
-    seMetodos: "Therapeutic Approaches",
-    seEjemplo19: "Attachment-Based Therapy",
-    seEjemplo21: "Compassion-Focused Approach",
-    seEjemplo22: "Cultural Sensitivity",
-    seEjemplo23: "Family Systems",
-    seEjemplo24: "Feminist Perspective",
-    seEjemplo25: "Motivational Interviewing",
-    seEjemplo26: "Narrative Therapy",
-    seEjemplo27: "Person-Centered Therapy",
-    seEjemplo28: "Positive Psychology",
-    seEjemplo29: "Strengths-Based Therapy",
-    seEjemplo30: "Client-Centered Therapy",
-    seEjemplo31: "Grief Therapy",
-    seEjemplo32: "Mindfulness",
-    seEjemplo33: "Supportive Therapy",
-    seEjemplo34: "Somatic Therapy",
-    seFaq1Q:"Is therapy 100% online?",
-    seFaq1A:"Yes. No matter where you are in North Carolina, we meet via video call in a safe and private space, with no travel or extra stress",
-    seFaq2Q:"What do I need for the session?",
-    seFaq2A:"You only need a device with a camera and microphone, a good internet connection, and a quiet space where you feel comfortable.",
-    seFaq3Q:"Can I choose the language for the session?",
-    seFaq3A:"Yes, sessions can be conducted in either English or Spanish , according to your preference.",
-    seFaq4Q:"How much does therapy cost?",
-    seFaq4A:"The cost of therapy will vary depending on the services you require. My personal belief is that everyone who needs therapy should have access to it and the cost should not be prohibitive. While I do not accept any insurance plans at this time, I do offer sliding scale rates if needed. Please contact me directly to discuss more.",
+    /* --- SPAIN (ENGLISH VERSION) --- */
+    navServicios: "Emotional Support Services",
+    navPreguntas: "Frequently Asked Questions",
+
+    heroTitulo: "InnerLight Reflections",
+    heroFrase: "“Even in our most difficult moments, there is still a light that shines inside us.”",
+    heroBoton: "Contact me",
+    heroTelefono: "Phone: +34 674 43 30 59",
+
+    bienvenidaTitulo: "Kristine Pelletier Garcia",
+    bienvenidaSubtitulo: "Grief Movement Guide",
+    bienvenidaP1:
+      "My name is Kristine Pelletier Garcia, and I am a bilingual (English/Spanish) psychotherapist with more than 10 years of clinical experience. In Spain, I offer emotional support as a Grief Movement Guide, accompanying individuals who are going through moments of change, loss, or transition. My approach is warm, person‑centered, and adapted to the needs that each individual identifies.",
+    bienvenidaP2:
+      "From an early age, I felt drawn to listening attentively to others in order to understand more deeply how they were feeling, especially during the most difficult moments of their lives. Major life changes often bring a mix of emotions that can manifest as anxiety, stress, or sadness. My work consists of accompanying you with presence, compassion, and tools that help you move forward through these transitions.",
+
+    serviciosIntro:
+      "I offer a compassionate and supportive approach to help clients navigate challenges.",
+    serviciosTitulo: "Areas of Focus",
+    serv1: "Life transitions",
+    serv2: "Family or relationship stress",
+    serv3: "Grief and loss",
+    serv4: "Parenting",
+    serv5: "Caregiver strain",
+
+    faqTitulo: "Frequently Asked Questions",
+    faq1Q: "Is therapy 100% online?",
+    faq1A: "Most of my sessions are online...",
+    faq2Q: "How much does a session cost?",
+    faq2A: "I currently charge €60 per session.",
+
+    formTitulo: "Request an appointment",
+    formNombre: "Full name",
+    formCorreo: "Email address",
+    formMensaje: "Message or reason for consultation",
+    formEnviar: "Send message",
+
+    /* --- USA (ENGLISH VERSION) --- */
+    pageTitleUSA: "InnerLight Reflections - USA",
+
+    usaServicios: "Mental Health Services",
+    usaPreguntas: "FAQ",
+    usaComienzo: "Start now",
+
+    usaHeroTitulo: "InnerLight Reflections",
+    usaHeroFrase: "“Even in our most difficult moments, there is still a light that shines inside us.”",
+    usaHeroBoton: "Get in touch",
+
+    usaBienvenidaTitulo: "Kristine Pelletier Garcia, LCSW",
+    usaBienvenidaSubtitulo: "Psychotherapist & Grief Movement Guide",
+
+    usaBienvenidaP1:
+      "My name is Kristine Pelletier Garcia and I am a bilingual (English/Spanish) Licensed Clinical Social Worker with over 10 years of clinical experience. I provide online therapy services to adults in the state of North Carolina and I am the owner of InnerLight Reflections. My therapeutic approach is client-centered and adapted to the needs identified by each person.",
+    usaBienvenidaP2:
+      "From an early age, I was drawn to listening attentively to others to better understand how they were feeling, especially during some of the most challenging moments in their lives. Change often brings a mix of emotions and thoughts that can manifest as anxiety, stress, or depression, disrupting personal life. My approach has helped clients find ways to move forward through the many life transitions they face.",
+
+    usaServiciosIntro:
+      "I offer a compassionate and supportive approach to help clients navigate the challenges they are facing.",
+
+    usaAreasTitulo: "Areas of Focus",
+    usaArea1: "Anxiety",
+    usaArea2: "Depression",
+    usaArea3: "Family/relationship stress",
+    usaArea4: "Grief & Loss",
+    usaArea5: "Life transitions",
+    usaArea6: "Parenting",
+    usaArea7: "Caregiver strain",
+
+    usaMetodosTitulo: "Therapeutic Approaches",
+    usaMetodo1: "Attachment-based",
+    usaMetodo2: "Grief",
+    usaMetodo3: "Somatic",
+    usaMetodo4: "Feminist",
+    usaMetodo5: "Mindfulness",
+    usaMetodo6: "Positive Psychology",
+    usaMetodo7: "Strengths-based",
+
+    usaFaqTitulo: "Frequently Asked Questions",
+    usaFaq1Q: "Is therapy 100% online?",
+    usaFaq1A: "Yes. No matter where you are in North Carolina, we meet via video call in a safe and private space.",
+    usaFaq2Q: "What do I need for the session?",
+    usaFaq2A: "You only need a device with a camera and microphone, a good internet connection, and a quiet space where you feel comfortable.",
+    usaFaq3Q: "How much does therapy cost?",
+    usaFaq3A: "The cost of therapy varies depending on your needs. While I do not accept insurance, I offer sliding scale rates when needed. Please contact me directly for more information.",
+
+    usaFormTitulo: "Get in touch",
+    usaFormNombre: "Full name",
+    usaFormCorreo: "Email address",
+    usaFormMensaje: "Message",
+    usaFormEnviar: "Send message",
+
+    usaFooter: "© 2025 InnerLight Reflections."
   }
 };
+
+
+/* --- SISTEMA DE IDIOMA --- */
 
 function detectarIdiomaUsuario() {
   if (!localStorage.getItem("idioma")) {
@@ -171,10 +213,6 @@ function aplicarIdioma() {
     }
   });
 
-  if (traducciones[idioma].pageTitle) {
-    document.title = traducciones[idioma].pageTitle;
-  }
-
   const toggle = document.getElementById("lang-toggle");
   if (toggle) {
     toggle.textContent = idioma === "es" ? "English" : "Español";
@@ -192,5 +230,3 @@ window.addEventListener("DOMContentLoaded", () => {
   aplicarIdioma();
   document.getElementById("lang-toggle")?.addEventListener("click", cambiarIdioma);
 });
-
-
