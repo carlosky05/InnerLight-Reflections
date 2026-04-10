@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>InnerLight Reflections</title>
+  <title data-key="pageTitle">InnerLight Reflections</title>
 
   <link rel="stylesheet" href="Estilo.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
 
   <script src="Animaciones.js" defer></script>
 </head>
@@ -24,8 +23,11 @@
     </div>
 
     <nav class="nav-menu">
-      <a href="#services">Servicios de Apoyo Emocional</a>
-      <a href="#faq">Preguntas Frecuentes</a>
+      <a href="#services" data-key="navServicios">Servicios de Apoyo Emocional</a>
+      <a href="#faq" data-key="navPreguntas">Preguntas Frecuentes</a>
+
+      <!-- BOTÓN DE IDIOMA -->
+      <button id="lang-toggle" class="btn-idioma">English</button>
     </nav>
   </div>
 </header>
@@ -33,14 +35,15 @@
 <!-- Hero -->
 <section class="hero-banner" style="background-image: url('img/fondo5.jpg'); background-size: cover; text-align: center; color: white; padding: 6rem 1rem;">
   <div class="container">
-    <h1 style="font-size: 3rem; font-weight: bold;">InnerLight Reflections</h1>
-    <p style="font-size: 1.75rem; margin-top: 1rem; font-weight: bold;">
+    <h1 style="font-size: 3rem; font-weight: bold;" data-key="heroTitulo">InnerLight Reflections</h1>
+
+    <p style="font-size: 1.75rem; margin-top: 1rem; font-weight: bold;" data-key="heroFrase">
       <em>“Incluso en nuestros momentos más difíciles, aún hay una luz que brilla dentro de nosotros.”</em>
     </p><br>
 
-    <a href="#contacto" class="btn" style="margin-top: 1.5rem;">Ponte en contacto</a>
+    <a href="#contacto" class="btn" style="margin-top: 1.5rem;" data-key="heroBoton">Ponte en contacto</a>
 
-    <p style="margin-top: 1rem; font-size:1.2rem; font-weight:600;">
+    <p style="margin-top: 1rem; font-size:1.2rem; font-weight:600;" data-key="heroTelefono">
       Teléfono: +34 674 43 30 59
     </p>
   </div>
@@ -50,8 +53,8 @@
 <section class="bienvenida">
   <div class="container row">
 
-    <h2 class="titulo-centro">Kristine Pelletier Garcia</h2>
-    <h3 class="titulo-centro" style="margin-top:-1rem; color:#4B5563; font-size:1.3rem;">
+    <h2 class="titulo-centro" data-key="bienvenidaTitulo">Kristine Pelletier Garcia</h2>
+    <h3 class="titulo-centro" style="margin-top:-1rem; color:#4B5563; font-size:1.3rem;" data-key="bienvenidaSubtitulo">
       Guía de Movimiento para el Duelo
     </h3>
 
@@ -60,40 +63,34 @@
     </div>
 
     <div class="texto">
-      <p class="animate-slide-left">
-        Mi nombre es Kristine Pelletier Garcia y soy psicoterapeuta bilingüe (inglés/español) con más de 10 años de experiencia clínica. En España ofrezco apoyo emocional como Guía de Movimiento para el Duelo, acompañando a personas que atraviesan momentos de cambio, pérdida o transición. Mi enfoque es cercano, centrado en la persona y adaptado a las necesidades que cada individuo identifica.
-      </p>
-
-      <p class="animate-slide-left">
-        Desde temprana edad me sentí atraída por escuchar atentamente a los demás para comprender más profundamente cómo se sentían, especialmente en los momentos más difíciles de su vida. Los cambios importantes suelen traer una mezcla de emociones que pueden manifestarse como ansiedad, estrés o tristeza. Mi trabajo consiste en acompañarte con presencia, compasión y herramientas que te ayuden a avanzar a través de estas transiciones.
-      </p>
+      <p class="animate-slide-left" data-key="bienvenidaP1">Mi nombre es Kristine Pelletier Garcia y soy psicoterapeuta bilingüe (inglés/español) con más de 10 años de experiencia clínica. En España ofrezco apoyo emocional como Guía de Movimiento para el Duelo, acompañando a personas que atraviesan momentos de cambio, pérdida o transición. Mi enfoque es cercano, centrado en la persona y adaptado a las necesidades que cada individuo identifica.</p>
+      <p class="animate-slide-left" data-key="bienvenidaP2">Desde temprana edad me sentí atraída por escuchar atentamente a los demás para comprender más profundamente cómo se sentían, especialmente en los momentos más difíciles de su vida. Los cambios importantes suelen traer una mezcla de emociones que pueden manifestarse como ansiedad, estrés o tristeza. Mi trabajo consiste en acompañarte con presencia, compasión y herramientas que te ayuden a avanzar a través de estas transiciones.</p>
     </div>
 
   </div>
 </section>
 
-
 <!-- Servicios -->
 <section id="services" class="hero-banner" style="background-image: url('img/fondo7.jpg'); padding:3rem 1rem;">
   <div class="container">
 
-    <p class="frase-hero" style="color: black;">Ofrezco un enfoque compasivo y de apoyo para ayudar a los clientes a navegar los desafíos que están enfrentando.</p>
+    <p class="frase-hero" style="color: black;" data-key="serviciosIntro">
+      Ofrezco un cuidado enfocado en la compasión y el apoyo para ayudar a los clientes a navegar los desafíos a los que se están enfrentando
+    </p>
 
     <div class="treatment-lists">
 
-      <!-- Áreas de Enfoque -->
       <div class="list-container">
-        <h3>Áreas de Enfoque</h3>
+        <h3 data-key="serviciosTitulo">Áreas de Enfoque</h3>
         <ul>
-          <li class="animate-slide-left">Transiciones de vida</li>
-          <li class="animate-slide-left">Estrés familiar o de pareja</li>
-          <li class="animate-slide-left">Duelo y pérdida</li>
-          <li class="animate-slide-left">Crianza</li>
-          <li class="animate-slide-left">Sobrecarga del cuidador</li>
+          <li class="animate-slide-left" data-key="serv1">Transiciones de vida</li>
+          <li class="animate-slide-left" data-key="serv2">Estrés familiar o de pareja</li>
+          <li class="animate-slide-left" data-key="serv3">Duelo y pérdida</li>
+          <li class="animate-slide-left" data-key="serv4">Crianza</li>
+          <li class="animate-slide-left" data-key="serv5">Sobrecarga del cuidador</li>
         </ul>
       </div>
 
-      <!-- Eliminada la sección de Métodos Terapéuticos -->
     </div>
   </div>
 </section>
@@ -101,18 +98,18 @@
 <!-- Preguntas Frecuentes -->
 <section id="faq" class="faq">
   <div class="container">
-    <h2>Preguntas Frecuentes</h2>
+    <h2 data-key="faqTitulo">Preguntas Frecuentes</h2>
 
     <details>
-      <summary class="animate-slide-up">¿La terapia es 100 % online?</summary>
-      <p class="animate-slide-right">
+      <summary class="animate-slide-up" data-key="faq1Q">¿La terapia es 100 % online?</summary>
+      <p class="animate-slide-right" data-key="faq1A">
         La mayoría de mis sesiones las realizo online; sin embargo, si estás interesado/a en tener una sesión presencial, por favor contáctame para hablar sobre las opciones disponibles.
       </p>
     </details>
 
     <details>
-      <summary class="animate-slide-up">¿Cuánto cuesta una sesión?</summary>
-      <p class="animate-slide-right">
+      <summary class="animate-slide-up" data-key="faq2Q">¿Cuánto cuesta una sesión?</summary>
+      <p class="animate-slide-right" data-key="faq2A">
         Actualmente, cobro 60€ por sesión.
       </p>
     </details>
@@ -120,30 +117,30 @@
   </div>
 </section>
 
-<!-- Formulario de contacto -->
+<!-- Formulario -->
 <section id="contacto" class="formulario-contacto">
   <div class="container">
-    <h2>Solicita una cita</h2>
+    <h2 data-key="formTitulo">Solicita una cita</h2>
 
     <form action="https://formspree.io/f/xanbgzky" method="POST">
-      <label for="nombre">Nombre completo</label>
+      <label for="nombre" data-key="formNombre">Nombre completo</label>
       <input type="text" id="nombre" name="nombre" required />
 
-      <label for="email">Correo electrónico</label>
+      <label for="email" data-key="formCorreo">Correo electrónico</label>
       <input type="email" id="email" name="email" required />
 
-      <label for="mensaje">Mensaje o motivo de consulta</label>
+      <label for="mensaje" data-key="formMensaje">Mensaje o motivo de consulta</label>
       <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
 
-      <button type="submit" class="btn">Enviar mensaje</button>
+      <button type="submit" class="btn" data-key="formEnviar">Enviar mensaje</button>
     </form>
   </div>
 </section>
 
-<!-- Pie de página -->
+<!-- Pie -->
 <footer>
   <div class="container">
-    <p>© 2025 InnerLight Reflections.</p>
+    <p data-key="footer">© 2025 InnerLight Reflections.</p>
   </div>
 </footer>
 
@@ -190,7 +187,9 @@ function showPopup() {
 }
 </script>
 
-
+<!-- Scripts de idioma -->
+<script src="traducciones.js"></script>
+<script src="idiomas.js"></script>
 
 </body>
 </html>
