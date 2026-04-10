@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>InnerLight Reflections - USA</title>
+  <title data-key="pageTitleUSA">InnerLight Reflections - USA</title>
 
   <link rel="stylesheet" href="Estilo.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
 
   <!-- Header -->
-  <header class="main-header">
+  <header class="main-header" >
     <div class="container header-flex">
       <div class="logo">
         <a href="EEUU.html">
@@ -23,11 +23,15 @@
       </div>
 
       <nav class="nav-menu">
-        <a href="#services">Mental Health Services</a>
-        <a href="#faq">FAQ</a>
+        <a href="#services" data-key="usaServicios">Mental Health Services</a>
+        <a href="#faq" data-key="usaPreguntas">FAQ</a>
       </nav>
-      <a href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=9610642&provider_ids=%5B9610642%5D&appt_type_ids=%5B472606,472607,472608,478258%5D" class="btn btn-orange" data-key="varComienzo">Start now</a>
 
+      <a href="https://secure.gethealthie.com/appointments/embed_appt?dietitian_id=9610642&provider_ids=%5B9610642%5D&appt_type_ids=%5B472606,472607,472608,478258%5D"
+         class="btn btn-orange" data-key="usaComienzo">Start now</a>
+
+      <!-- Botón de idioma -->
+      <button id="lang-toggle" class="btn-idioma">Español</button>
     </div>
   </header>
 
@@ -35,10 +39,13 @@
   <section class="hero-banner" style="background-image: url('img/fondo5.jpg');">
     <div class="container">
       
-      <h1>InnerLight Reflections</h1>
-      <p><em>“Even in our most difficult moments, there is still a light that shines inside us.”</em></p><br>
-      <a href="#contact" class="btn" style="margin-top: 1.5rem;">Get in touch</a>
-      </p>
+      <h1 data-key="usaHeroTitulo">InnerLight Reflections</h1>
+
+      <p data-key="usaHeroFrase">
+        <em>“Even in our most difficult moments, there is still a light that shines inside us.”</em>
+      </p><br>
+
+      <a href="#contact" class="btn" style="margin-top: 1.5rem;" data-key="usaHeroBoton">Get in touch</a>
       
     </div>
   </section>
@@ -47,8 +54,10 @@
   <section class="bienvenida">
     <div class="container row">
 
-      <h2 class="titulo-centro">Kristine Pelletier Garcia, LCSW</h2>
-      <h3 class="titulo-centro" style="margin-top:-1rem; color:#4B5563; font-size:1.3rem;">
+      <h2 class="titulo-centro" data-key="usaBienvenidaTitulo">Kristine Pelletier Garcia, LCSW</h2>
+
+      <h3 class="titulo-centro" style="margin-top:-1rem; color:#4B5563; font-size:1.3rem;"
+          data-key="usaBienvenidaSubtitulo">
         Psychotherapist & Grief Movement Guide
       </h3>
 
@@ -57,13 +66,8 @@
       </div>
 
       <div class="texto">
-        <p class="animate-slide-left">
-          My name is Kristine Pelletier Garcia and I am a bilingual (English/Spanish) Licensed Clinical Social Worker with over 10 years of clinical experience. I provide online therapy services to adults in the state of North Carolina and I am the owner of InnerLight Reflections. My therapeutic approach is client-centered and adapted to the needs identified by each person. While I specialize in life changes, grief, and coping, I consider each client unique and special, and I take pride in offering attentive, focused, and compassionate listening to support them on their journey.
-        </p>
-
-        <p class="animate-slide-left">
-          From an early age, I was drawn to listening attentively to others to better understand how they were feeling, especially during some of the most challenging moments in their lives. Change often brings a mix of emotions and thoughts that can manifest as anxiety, stress, or depression, disrupting personal life. My approach has helped clients find ways to move forward through the many life transitions they face.
-        </p>
+        <p class="animate-slide-left" data-key="usaBienvenidaP1"></p>
+        <p class="animate-slide-left" data-key="usaBienvenidaP2"></p>
       </div>
 
     </div>
@@ -73,35 +77,37 @@
   <section id="services" class="hero-banner" style="background-image: url('img/fondo7.jpg'); padding:3rem 1rem;">
     <div class="container">
 
-      <p class="frase-hero" style="color: #000;">I offer a compassionate and supportive approach to help clients navigate the challenges they are facing.</p>
+      <p class="frase-hero" style="color: #000;" data-key="usaServiciosIntro">
+        I offer a compassionate and supportive approach to help clients navigate the challenges they are facing.
+      </p>
 
       <div class="treatment-lists">
 
         <!-- Areas of Focus -->
         <div class="list-container">
-          <h3>Areas of Focus</h3>
+          <h3 data-key="usaAreasTitulo">Areas of Focus</h3>
           <ul>
-            <li class="animate-slide-left">Anxiety</li>
-            <li class="animate-slide-left">Depression</li>
-            <li class="animate-slide-left">Family/relationship stress</li>
-            <li class="animate-slide-left">Grief & Loss</li>
-            <li class="animate-slide-left">Life transitions</li>
-            <li class="animate-slide-left">Parenting</li>
-            <li class="animate-slide-left">Caregiver strain</li>
+            <li class="animate-slide-left" data-key="usaArea1">Anxiety</li>
+            <li class="animate-slide-left" data-key="usaArea2">Depression</li>
+            <li class="animate-slide-left" data-key="usaArea3">Family/relationship stress</li>
+            <li class="animate-slide-left" data-key="usaArea4">Grief & Loss</li>
+            <li class="animate-slide-left" data-key="usaArea5">Life transitions</li>
+            <li class="animate-slide-left" data-key="usaArea6">Parenting</li>
+            <li class="animate-slide-left" data-key="usaArea7">Caregiver strain</li>
           </ul>
         </div>
 
         <!-- Therapeutic Approaches -->
         <div class="list-container">
-          <h3>Therapeutic Approaches</h3>
+          <h3 data-key="usaMetodosTitulo">Therapeutic Approaches</h3>
           <ul>
-            <li class="animate-slide-right">Attachment-based</li>
-            <li class="animate-slide-right">Grief</li>
-            <li class="animate-slide-right">Somatic</li>
-            <li class="animate-slide-right">Feminist</li>
-            <li class="animate-slide-right">Mindfulness</li>
-            <li class="animate-slide-right">Positive Psychology</li>
-            <li class="animate-slide-right">Strengths-based</li>
+            <li class="animate-slide-right" data-key="usaMetodo1">Attachment-based</li>
+            <li class="animate-slide-right" data-key="usaMetodo2">Grief</li>
+            <li class="animate-slide-right" data-key="usaMetodo3">Somatic</li>
+            <li class="animate-slide-right" data-key="usaMetodo4">Feminist</li>
+            <li class="animate-slide-right" data-key="usaMetodo5">Mindfulness</li>
+            <li class="animate-slide-right" data-key="usaMetodo6">Positive Psychology</li>
+            <li class="animate-slide-right" data-key="usaMetodo7">Strengths-based</li>
           </ul>
         </div>
 
@@ -112,25 +118,25 @@
   <!-- FAQ -->
   <section id="faq" class="faq">
     <div class="container">
-      <h2>Frequently Asked Questions</h2>
+      <h2 data-key="usaFaqTitulo">Frequently Asked Questions</h2>
 
       <details>
-        <summary class="animate-slide-up">Is therapy 100% online?</summary>
-        <p class="animate-slide-right">
+        <summary class="animate-slide-up" data-key="usaFaq1Q">Is therapy 100% online?</summary>
+        <p class="animate-slide-right" data-key="usaFaq1A">
           Yes. No matter where you are in North Carolina, we meet via video call in a safe and private space.
         </p>
       </details>
 
       <details>
-        <summary class="animate-slide-up">What do I need for the session?</summary>
-        <p class="animate-slide-right">
+        <summary class="animate-slide-up" data-key="usaFaq2Q">What do I need for the session?</summary>
+        <p class="animate-slide-right" data-key="usaFaq2A">
           You only need a device with a camera and microphone, a good internet connection, and a quiet space where you feel comfortable.
         </p>
       </details>
 
       <details>
-        <summary class="animate-slide-up">How much does therapy cost?</summary>
-        <p class="animate-slide-right">
+        <summary class="animate-slide-up" data-key="usaFaq3Q">How much does therapy cost?</summary>
+        <p class="animate-slide-right" data-key="usaFaq3A">
           The cost of therapy varies depending on your needs. While I do not accept insurance, I offer sliding scale rates when needed. Please contact me directly for more information.
         </p>
       </details>
@@ -141,19 +147,19 @@
   <!-- Contact Form -->
   <section id="contact" class="formulario-contacto">
     <div class="container">
-      <h2>Get in touch</h2>
+      <h2 data-key="usaFormTitulo">Get in touch</h2>
 
       <form action="https://formspree.io/f/xanbgzky" method="POST">
-        <label for="name">Full name</label>
+        <label for="name" data-key="usaFormNombre">Full name</label>
         <input type="text" id="name" name="name" required />
 
-        <label for="email">Email address</label>
+        <label for="email" data-key="usaFormCorreo">Email address</label>
         <input type="email" id="email" name="email" required />
 
-        <label for="message">Message</label>
+        <label for="message" data-key="usaFormMensaje">Message</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 
-        <button type="submit" class="btn">Send message</button>
+        <button type="submit" class="btn" data-key="usaFormEnviar">Send message</button>
       </form>
     </div>
   </section>
@@ -161,10 +167,13 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>© 2025 InnerLight Reflections.</p>
+      <p data-key="usaFooter">© 2025 InnerLight Reflections.</p>
     </div>
   </footer>
 
-  
+  <!-- Scripts de idioma -->
+  <script src="traducciones.js"></script>
+  <script src="idiomas.js"></script>
+
 </body>
 </html>
