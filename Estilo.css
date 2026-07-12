@@ -1,8 +1,18 @@
-/* RESET GENERAL */
+
+.lists-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.list {
+  flex: 1;
+}/* RESET GENERAL */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -10,7 +20,7 @@ body {
   background-color: #FDFCFB;
   color: #333;
   line-height: 1.6;
-  font-family: 'Inter', sans-serif;
+   font-family: 'Inter', sans-serif;
   font-weight: 400
 }
 
@@ -47,8 +57,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
+/*logos certificados*/
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem; /* separación entre logos */
+  margin-top: 1rem;
+}
+
+.logos img {
+  width: 100px; /* tamaño pequeño */
+  height: auto;
+  object-fit: contain;
+  opacity: 0.9; /* sutil para que no distraigan */
+  transition: transform 0.3s ease;
+}
+
+.logos img:hover {
+  transform: scale(1.05); /* pequeño efecto al pasar el ratón */
+}
+
 
 /* Logo */
 .logo img {
@@ -60,7 +91,6 @@ body {
   display: flex;
   gap: 1rem;
   align-items: center;
-  
 }
 
 .nav-menu a {
@@ -69,6 +99,7 @@ body {
   font-weight: 700;
   transition: color 0.3s ease;
 }
+
 .nav-menu a:hover {
   color: #1F2937;
 }
@@ -76,7 +107,7 @@ body {
 /* Botones principales */
 .btn {
   background-color: #2563EB;
-  color: white;
+  color: white !important;
   padding: 0.5rem 1.2rem;
   border: none;
   border-radius: 20px;
@@ -274,10 +305,21 @@ footer {
 
 .treatment-lists {
     display: flex;
-    justify-content: center;
-    gap: 3rem;
-    flex-wrap: wrap;
-    margin-top: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem; /* separación entre los dos bloques */
+  margin-top: 2rem;
+}
+
+/* Variante del formato de la página 1 */
+.treatment-lists-alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .list-container {
@@ -305,17 +347,29 @@ footer {
 }
 
 .frase-hero {
-  display: inline-block;
-  background-color: rgba(218, 218, 218, 0.75);
-  color: #000;
-  font-size: 1.2rem;
+  flex: 1;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1.8rem 2rem;
+  border-radius: 18px;
+  font-size: 1rem;
   line-height: 1.6;
-  padding: 1.2rem 1.8rem;
-  border-radius: 8px;
-  max-width: 800px;
-  margin: 0 auto 2rem auto;
+  color: #222;
+}
+
+/* Cuadro izquierdo (texto) */
+.frase-hero-alt {
+  flex: auto;
+  min-width: 400px;
+  max-width: 550px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Ajustes para listas */
@@ -327,29 +381,61 @@ footer {
 }
 
 .list-container {
-  flex: 1 1 300px;
-  background-color: #e6f0f3;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0, 119, 182, 0.15);
-  text-align: left;
+  flex: 1;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.frase-hero-alt {
+  flex: 0.6;          /* más pequeño */
+  min-width: 350px;
+  max-width: 450px;
+}
+
+/* Cuadro derecho (listas) */
+.list-container-alt {
+  flex: 2;
+  min-width: 400px;
+  max-width: 550px;
+  background: rgba(240, 248, 255, 0.95);
+  padding: 2rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenedor de las dos listas en paralelo */
+.lists-wrapper-alt {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .list-container h3 {
-  color: #005f87;
-  margin-bottom: 1rem;
+ font-size: 1.6rem;
+  margin-bottom: 1.5rem;
   text-align: center;
+  color: #2563EB;
+  font-weight: bold;
 }
+
 
 .list-container ul {
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  padding: 0.6rem 0;
+  border-bottom: none;
+  color: #333;
 }
 
+
 .list-container li {
-  margin-bottom: 0.5rem;
+  border: none;
 }
+
+
+
 
 /* Mejoras para móvil */
 @media (max-width: 768px) {
