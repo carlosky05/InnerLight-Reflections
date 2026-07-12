@@ -58,7 +58,7 @@ const traducciones = {
       "Desde temprana edad me sentí atraída por escuchar atentamente a los demás para comprender más profundamente cómo se sentían, especialmente en los momentos más difíciles de su vida. El cambio a menudo trae una mezcla de emociones que pueden manifestarse como ansiedad, estrés o depresión. Mi enfoque ha ayudado a mis clientes a encontrar maneras de avanzar a través de las muchas transiciones que enfrentan.",
 
     usaServiciosIntro:
-      "Ofrezco un enfoque compasivo y de apoyo para ayudar a los clientes a navegar los desafíos que están enfrentando.",
+      "A veces nos enfrentamos a desafíos, complicaciones o cambios por pequeños o grandes que puedan parecer o sentirse que pueden hacernos sentir que nosotros, o algún aspecto de nuestra vida, está fuera de equilibrio. Estas situaciones pueden generar emociones como confusión, estrés, sensación de estar “atascado”, ira, ansiedad y/o tristeza. Mi objetivo es acompañarte con presencia y compasión mientras trabajamos juntos para descubrir maneras que te ayuden a comprender estas emociones y encontrar mayor equilibrio en medio de la situación en la que te encuentras.",
 
     usaAreasTitulo: "Áreas de Enfoque",
     usaArea1: "Ansiedad",
