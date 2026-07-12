@@ -28,9 +28,9 @@ const traducciones = {
 
     faqTitulo: "Preguntas Frecuentes",
     faq1Q: "¿La terapia es 100 % online?",
-    faq1A: "Puedo ofrecer sesiones presenciales en el centro de Granada y sesiones virtuales en línea para cualquier persona que se encuentre en España.",
+    faq1A: "Ofreczo sesiones presenciales en el centro de Granada y sesiones virtuales en línea para cualquier persona que se encuentre en España.",
     faq2Q: "¿Cuánto cuesta una sesión?",
-    faq2A: "Actualmente, cobro 60€ por sesión.",
+    faq2A: "Cobro 60€ por sesión.",
 
     formTitulo: "Solicita una cita",
     formNombre: "Nombre completo",
@@ -53,9 +53,9 @@ const traducciones = {
     usaBienvenidaSubtitulo: "Psicoterapeuta y Guía de Movimiento para el Duelo",
 
     usaBienvenidaP1:
-      "Mi nombre es Kristine Pelletier Garcia y soy Trabajadora Social Clínica Licenciada bilingüe (inglés/español) con más de 10 años de experiencia clínica. Ofrezco servicios de terapia online para adultos en Carolina del Norte y soy la propietaria de InnerLight Reflections. Mi enfoque terapéutico está centrado en la persona y se adapta a las necesidades que cada individuo identifica.",
+      "Bienvenido/a, me alegra mucho que estés aquí. Mi nombre es Kristine Pelletier Garcia y soy trabajadora social clínica licenciada en Estados Unidos y psicoterapeuta especializada en duelo, bilingüe en inglés y español, con más de 10 años de experiencia clínica. En España, ofrezco acompañamiento emocional como Coach Certificada y Guía de Movimiento para el Duelo, acompañando a personas que atraviesan momentos de cambio, pérdida o transición.",
     usaBienvenidaP2:
-      "Desde temprana edad me sentí atraída por escuchar atentamente a los demás para comprender más profundamente cómo se sentían, especialmente en los momentos más difíciles de su vida. El cambio a menudo trae una mezcla de emociones que pueden manifestarse como ansiedad, estrés o depresión. Mi enfoque ha ayudado a mis clientes a encontrar maneras de avanzar a través de las muchas transiciones que enfrentan.",
+      "Además del apoyo cognitivo tradicional, como Guía de Movimiento para el Duelo también ofrezco técnicas somáticas que se enfocan en ayudarte a transformar el dolor y la dificultad en paz y propósito mediante el movimiento, la respiración y el sonido.",
 
     usaServiciosIntro:
       "A veces nos enfrentamos a desafíos, complicaciones o cambios por pequeños o grandes que puedan parecer o sentirse que pueden hacernos sentir que nosotros, o algún aspecto de nuestra vida, está fuera de equilibrio. Estas situaciones pueden generar emociones como confusión, estrés, sensación de estar “atascado”, ira, ansiedad y/o tristeza. Mi objetivo es acompañarte con presencia y compasión mientras trabajamos juntos para descubrir maneras que te ayuden a comprender estas emociones y encontrar mayor equilibrio en medio de la situación en la que te encuentras.",
@@ -108,9 +108,9 @@ const traducciones = {
     bienvenidaTitulo: "Kristine Pelletier Garcia",
     bienvenidaSubtitulo: "Grief Movement Guide",
     bienvenidaP1:
-      "My name is Kristine Pelletier Garcia, and I am a bilingual (English/Spanish) psychotherapist with more than 10 years of clinical experience. In Spain, I offer emotional support as a Grief Movement Guide, accompanying individuals who are going through moments of change, loss, or transition. My approach is warm, person‑centered, and adapted to the needs that each individual identifies.",
+      "Welcome, I’m so glad you’re here. My name is Kristine Pelletier Garcia, and I am a bilingual (English/Spanish) US Licensed Clinical Social Worker/Grief Informed Psychotherapist with more than 10 years of clinical experience. In Spain, I offer emotional support as a Certified Coach and Grief Movement Guide, accompanying individuals who are going through moments of change, loss, or transition.",
     bienvenidaP2:
-      "From an early age, I felt drawn to listening attentively to others in order to understand more deeply how they were feeling, especially during the most difficult moments of their lives. Major life changes often bring a mix of emotions that can manifest as anxiety, stress, or sadness. My work consists of accompanying you with presence, compassion, and tools that help you move forward through these transitions.",
+      "In addition to traditional cognitive support, as a Grief Movement Guide I also offer somatic techniques that focus on empowering you to transform pain and struggle into peace and purpose using movement, breath and sound.",
 
     serviciosIntro:
       "Sometimes we are faced with challenges, complications or changes, no matter how minor or major they may feel or seem, that can cause us to feel as if we, or something in our life, is out of balance. These situations can lead to feelings such as confusion, stress, feeling “stuck”, anger, anxiety and/or sadness.  My goal is to accompany you with presence and compassion as we work together to uncover ways to help you understand these feelings and find more balance amidst the situation you are in.",
@@ -123,9 +123,9 @@ const traducciones = {
 
     faqTitulo: "Frequently Asked Questions",
     faq1Q: "Is therapy 100% online?",
-    faq1A: "I am able to offer in-person sessions downtown Granada, and virtual on-line sessions to anyone in Spain",
+    faq1A: "I offer in person sessions downtown Granada, and virtual on-line sessions to anyone in Spain",
     faq2Q: "How much does a session cost?",
-    faq2A: "I currently charge €60 per session.",
+    faq2A: "I charge €60 per session.",
 
     formTitulo: "Request an appointment",
     formNombre: "Full name",
