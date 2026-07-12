@@ -69,7 +69,7 @@ body {
 }
 
 .logos img {
-  width: 100px; /* tamaño pequeño */
+  width: 60px; /* tamaño pequeño */
   height: auto;
   object-fit: contain;
   opacity: 0.9; /* sutil para que no distraigan */
@@ -323,14 +323,16 @@ footer {
 }
 
 .list-container {
-    flex: 1 1 300px;
-    background-color: #e6f0f3;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 0 8px rgba(0, 119, 182, 0.15);
-    text-align: center; /* Para que el texto dentro de las listas quede alineado a la izquierda */
-    margin: 0 auto; /* Centrar bloques si hay espacio extra */
+  flex: 2;              /* más ancho */
+  max-width: 850px;     /* más ancho */
+  min-width: 670px;     /* evita que se haga pequeño */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
+
+
 
 .list-container h3 {
     color: #005f87;
@@ -357,11 +359,22 @@ footer {
   color: #222;
 }
 
+.frase-hero2 {
+  flex: 1;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1.8rem 2rem;
+  border-radius: 18px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+}
+
 /* Cuadro izquierdo (texto) */
 .frase-hero-alt {
-  flex: auto;
-  min-width: 400px;
-  max-width: 550px;
+  flex: 0.5;
+  min-width: 300px;
+  max-width: 380px;
   background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 20px;
@@ -398,8 +411,8 @@ footer {
 /* Cuadro derecho (listas) */
 .list-container-alt {
   flex: 2;
-  min-width: 400px;
-  max-width: 550px;
+  min-width: 350px;
+  max-width: 650px;
   background: rgba(240, 248, 255, 0.95);
   padding: 2rem 2.5rem;
   border-radius: 20px;
