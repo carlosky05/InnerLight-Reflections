@@ -453,6 +453,29 @@ footer {
 /* Mejoras para móvil */
 @media (max-width: 768px) {
   .frase-hero {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .list-container {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .treatment-lists-alt {
+    align-items: flex-start; /* evita descuadres */
+    gap: 1.5rem;             /* reduce espacio */
+  }
+}
+
+@media (max-width: 768px) {
+  .frase-hero {
     font-size: 1rem;
     padding: 1rem;
   }
