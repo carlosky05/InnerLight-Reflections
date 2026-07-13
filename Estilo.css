@@ -507,6 +507,49 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+  /* Contenedor general */
+  .treatment-lists-alt {
+    flex-direction: column;      /* apila los cuadros uno encima del otro */
+    align-items: center;         /* centra horizontalmente */
+    justify-content: center;
+    gap: 1.5rem;                 /* reduce espacio entre cuadros */
+    width: 100%;
+  }
+
+  /* Cuadro de texto */
+  .frase-hero {
+    flex: 1 1 100%;
+    max-width: 90%;              /* ocupa casi todo el ancho del móvil */
+    min-width: auto;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  /* Cuadro de listas */
+  .list-container {
+    flex: 1 1 100%;
+    max-width: 90%;              /* evita que se salga del viewport */
+    min-width: auto;
+    margin: 0 auto;
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  /* Columnas internas de las listas */
+  .lists-wrapper {
+    flex-direction: column;      /* pasa de dos columnas a una */
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .list {
+    width: 100%;
+  }
+}
+
 
 
 /*-------------Animaciones-------------------------*/
