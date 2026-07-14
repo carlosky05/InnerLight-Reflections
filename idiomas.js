@@ -28,7 +28,7 @@ const traducciones = {
 
     faqTitulo: "Preguntas Frecuentes",
     faq1Q: "¿La terapia es 100 % online?",
-    faq1A: "Ofreczo sesiones presenciales en el centro de Granada y sesiones virtuales en línea para cualquier persona que se encuentre en España.",
+    faq1A: "Ofrezco sesiones presenciales en el centro de Granada y sesiones virtuales en línea para cualquier persona que se encuentre en España.",
     faq2Q: "¿Cuánto cuesta una sesión?",
     faq2A: "Cobro 60€ por sesión.",
 
@@ -58,7 +58,7 @@ const traducciones = {
       "Además del apoyo cognitivo tradicional, como Guía de Movimiento para el Duelo también ofrezco técnicas somáticas que se enfocan en ayudarte a transformar el dolor y la dificultad en paz y propósito mediante el movimiento, la respiración y el sonido.",
 
     usaServiciosIntro:
-      "A veces nos enfrentamos a desafíos, complicaciones o cambios por pequeños o grandes que puedan parecer o sentirse que pueden hacernos sentir que nosotros, o algún aspecto de nuestra vida, está fuera de equilibrio. Estas situaciones pueden generar emociones como confusión, estrés, sensación de estar “atascado”, ira, ansiedad y/o tristeza. Mi objetivo es acompañarte con presencia y compasión mientras trabajamos juntos para descubrir maneras que te ayuden a comprender estas emociones y encontrar mayor equilibrio en medio de la situación en la que te encuentras.",
+      "A veces nos enfrentamos a desafíos, complicaciones o cambios, por pequeños o grandes que puedan parecer que pueden hacernos sentir que nosotros, o algún aspecto de nuestra vida, está fuera de equilibrio. Estas situaciones pueden generar emociones como confusión, estrés, sensación de estar “atascado”, ira, ansiedad y/o tristeza. Mi objetivo es acompañarte con presencia y compasión mientras trabajamos juntos para descubrir maneras que te ayuden a comprender estas emociones y encontrar mayor equilibrio en medio de la situación en la que te encuentras.",
 
     usaAreasTitulo: "Áreas de Enfoque",
     usaArea1: "Ansiedad",
