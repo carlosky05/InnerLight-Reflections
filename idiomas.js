@@ -10,7 +10,7 @@ const traducciones = {
     heroTelefono: "Teléfono: +34 674 43 30 59",
 
     bienvenidaTitulo: "Kristine Pelletier Garcia",
-    bienvenidaSubtitulo: "Guía de Movimiento para el Duelo",
+    bienvenidaSubtitulo: "Coach Certificado y Guía de Movimiento para el Duelo",
     bienvenidaP1:
       "Bienvenido/a, me alegra mucho que estés aquí. Mi nombre es Kristine Pelletier Garcia y soy trabajadora social clínica licenciada en Estados Unidos y psicoterapeuta especializada en duelo, bilingüe en inglés y español, con más de 10 años de experiencia clínica. En España, ofrezco acompañamiento emocional como Coach Certificada y Guía de Movimiento para el Duelo, acompañando a personas que atraviesan momentos de cambio, pérdida o transición.",
     bienvenidaP2:
