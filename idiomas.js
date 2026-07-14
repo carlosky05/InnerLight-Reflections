@@ -148,7 +148,7 @@ const traducciones = {
     usaBienvenidaSubtitulo: "Psychotherapist & Grief Movement Guide",
 
     usaBienvenidaP1:
-      "Welcome, I’m so glad you’re here. My name is Kristine Pelletier Garcia, and I am a bilingual (English/Spanish) US Licensed Clinical Social Worker/Grief Informed Psychotherapist with more than 10 years of clinical experience. In Spain, I offer emotional support as a Certified Coach and Grief Movement Guide, accompanying individuals who are going through moments of change, loss, or transition.",
+      "Welcome, I’m so glad you’re here. My name is Kristine Pelletier Garcia, and I am a bilingual (English/Spanish) US Licensed Grief Informed Clinical Social Worker with more than 10 years of clinical experience.  In the state of North Carolina, I offer therapeutic support as a licensed psychotherapist and Grief Movement Guide, accompanying individuals who are going through moments of change, loss, or transition.",
     usaBienvenidaP2:
       "In addition to traditional cognitive support, as a Grief Movement Guide I also offer somatic techniques that focus on empowering you to transform pain and struggle into peace and purpose using movement, breath and sound.",
 
