@@ -25,6 +25,7 @@ const traducciones = {
     serv3: "Duelo y pérdida",
     serv4: "Crianza",
     serv5: "Sobrecarga del cuidador",
+    serv6: "Regulación emocional",
 
     faqTitulo: "Preguntas Frecuentes",
     faq1Q: "¿La terapia es 100 % online?",
@@ -120,6 +121,7 @@ const traducciones = {
     serv3: "Grief and loss",
     serv4: "Parenting",
     serv5: "Caregiver strain",
+    serv6: "Emotional regulation",
 
     faqTitulo: "Frequently Asked Questions",
     faq1Q: "Is therapy 100% online?",
